@@ -86,6 +86,8 @@ h1 {
   width: 490px;
   /* height: 56px; */
   font-family: "Inter";
+  padding-top: 24px;
+  padding-bottom: 20px;
 }
 .p-2 {
   width: 236px;
@@ -128,15 +130,38 @@ h1 {
 .section-bg {
   background-color: #f3f3f3;
 }
+.roud-p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.roud-p2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
 h3 {
   width: 503.5px;
   height: 64px;
   padding-bottom: 16px;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.1px;
 }
 .p-3 {
   width: 503.5px;
   height: 48px;
   padding-bottom: 16px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }
 .p-4 {
   width: 503.5px;
@@ -151,6 +176,22 @@ h3 {
   /* background-color: bisque; */
 }
 
+h5 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.-p {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .parent-div {
   position: relative;
 }
@@ -162,6 +203,11 @@ h3 {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }
 
 .child-div h5,
@@ -201,4 +247,35 @@ footer {
 
 .footer-list {
   color: #fff;
+}
+.title-f {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-bottom: 16px;
+}
+.list {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+h6 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-bottom: 16px;
+}
+.footer-p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 40%;
+  width: 228px;
+  height: 40px;
 }
