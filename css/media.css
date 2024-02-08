@@ -1,1 +1,48 @@
+@media screen and (max-width: 1024px) {
+  .flex-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
 
+@media screen and (max-width: 744px) {
+  .flex-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navigation {
+    display: none;
+  }
+  .action {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-container {
+    flex-direction: column;
+    height: 862px;
+  }
+
+  .texts {
+    text-align: center;
+  }
+  h1,
+  .p-1,
+  .actiondiv {
+    width: 630px;
+  }
+  .p-2 {
+    width: 370px;
+  }
+
+  /* .actiondiv {
+    margin-bottom: 68px;
+  } */
+}
